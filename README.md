@@ -1,14 +1,13 @@
-# ce06 Interfaces (ADTs)
+# hw03 Interfaces (ADTs)
 
-![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
+![Approved for: Spring 2021](https://img.shields.io/badge/Approved%20for-Spring%202021-success)
 
 This class exercise is designed to get you acquainted with Interfaces in Java.
 When a seasoned programmer or potential employer asks you if you know 
 Object-Oriented Programming (OOP), they do not mean, "do you know classes and objects?" 
-That's basic enough that it's assumed! Instead, they mean, "do you know the pillars of OOP?"
-The pillars of OOP are interfaces, inheritance, and polymorphism. In this exercise, we continue 
-the exploration of interfaces and interface-based polymorphism that you started with the 
-posted readings/videos. 
+Instead, they mean, "do you know the pillars of OOP?" The pillars of OOP are interfaces, 
+inheritance, and polymorphism. In this exercise, we continue the exploration of interfaces 
+and interface-based polymorphism. 
 
 ## Prerequisite Knowledge
 
@@ -25,24 +24,27 @@ set of requirements.
 
 ## Questions
 
-In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Odin server. 
+In your notes, clearly answer the questions in the following exercise steps. All instructions assume that you are 
+logged into the Odin server.
 
-**NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
-command that you typed to make the related action happen. If context is necessary (e.g., the 
-command depends on your present working directory), then please note that context as well.
+**NOTE:** For each step, please provide in your notes the full command that you typed to make the related 
+action happen along with an explanation of why that command worked. Some commands require multiple options. 
+It is important to not only recall what you typed but also why you typed each of them. If context is necessary 
+(e.g., the command depends on your present working directory), then please note that context as well.
+You won't need to submit your notes in your final submission. However, if done properly, your exercise notes 
+will serve as a helpful study guide for the exam.
 
 ## Exercise Steps
 
 ### Checkpoint 1 Steps - Getting Started
 
-1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce06`:
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-hw03`:
 
    ```
-   $ git clone https://github.com/cs1302uga/cs1302-ce06.git
+   $ git clone https://github.com/cs1302uga/cs1302-hw03.git
    ```
 
-1. Change into the `cs1302-ce06` directory that was just created and look around. There should be
+1. Change into the `cs1302-hw03` directory that was just created and look around. There should be
    multiple Java files contained within the directory structure. To see a listing of all of the 
    files under the `src` subdirectory, use the `find` command as follows:
    
@@ -54,7 +56,7 @@ command depends on your present working directory), then please note that contex
    following in your notes:
 
    **Note:** If a class is not an interface and does not implement an interface, write `NA` in the second
-   column. Also, the "Depends On" column should list any Java types in the `cs1302.ce06` package that the file
+   column. Also, the "Depends On" column should list any Java types in the `cs1302.hw03` package that the file
    is dependent upon. 
 
    | Name of the Java file | Interface or Implementing Class? | Fully Qualified Name (FQN) | Depends On |
@@ -63,10 +65,11 @@ command depends on your present working directory), then please note that contex
    |-----------------------|----------------------------------|----------------------------|------------|
    |-----------------------|----------------------------------|----------------------------|------------|
 
-1. List the abstract methods found in the `Driveable` interface.
+1. Read through the Javadoc comments in the `Drivable` interface and write down the names of the abstract methods
+   in your notes.
 
 1. Generate the API documentation website for all of the code in the `cs1302` package. 
-   Host the documentation on Odin using `cs1302-ce06-doc` as the name for your symbolic link.
+   Host the documentation on Odin using `cs1302-hw03-doc` as the name for your symbolic link.
    What is the URL to your hosted website?
    
 1. Look at the `speedUp` method in the `Car.java` file. Compare the Javadoc comment for the
@@ -81,7 +84,7 @@ command depends on your present working directory), then please note that contex
 
 ### Checkpoint 2 Steps
 
-1. Make sure that you are still in the `cs1302-ce06` directory. Compile `Drivable.java` and place the compiled
+1. Make sure that you are still in the `cs1302-hw03` directory. Compile `Drivable.java` and place the compiled
    code under the preexisting `bin` directory. To see a listing of all of the files under the `bin` subdirectory, 
    use the `find` command as follows:
    
@@ -110,7 +113,7 @@ command depends on your present working directory), then please note that contex
    group, have each group member come up with two. In your notes, include the items from your list as well as your 
    favorite among the ones generated by your group. Pick one of the choices and note it as best--play nice.
 
-1. Add a class to the `cs1302.ce06.impl` package that represents your best drivable type. That type should
+1. Add a class to the `cs1302.hw03.impl` package that represents your best drivable type. That type should
    be something that is capable of being driven (speeding up and slowing down) and therefore a perfect 
    candidate for a class that implements the actions in the `Drivable` interface. Make sure that your 
    class properly implements the interface. Also make sure that your class compiles. Here is a small 
@@ -187,29 +190,27 @@ command depends on your present working directory), then please note that contex
 
 **Each student needs to individually submit their own work.**
 
-1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce06`
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-hw03`
    directory with the following information.
 
    1. Your name and UGA ID number;
-   1. Collaborator names, if any; and
    1. The full link to the website generated in this exercise.
    
    Here is an example of the contents of `SUBMISSION.md`.
    
    ```
    1. Sally Smith (811-000-999)
-   2. Collaborators: Joe Allen, Stacie Mack
-   3. https://webwork.cs.uga.edu/~user/cs1302-ce06-doc
+   2. https://webwork.cs.uga.edu/~user/cs1302-hw03-doc
    ```
 
-1. Change directories to the parent of `cs1302-ce06` (e.g., `cd ..` from `cs1302-ce06`). If you would like
-   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+1. Change directories to the parent of `cs1302-hw03` (e.g., `cd ..` from `cs1302-hw03`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [hw01](https://github.com/cs1302uga/cs1302-hw01).
    We won't repeat those steps here and you can view them as optional.
    
 1. Use the `submit` command to submit this exercise to `csci-1302`:
    
    ```
-   $ submit cs1302-ce06 csci-1302
+   $ submit cs1302-hw03 csci-1302
    ```
    
    Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
