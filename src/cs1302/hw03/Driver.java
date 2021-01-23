@@ -1,17 +1,17 @@
-package cs1302.ce06;
+package cs1302.hw03;
 
-import cs1302.ce06.impl.Car;
+import cs1302.hw03.impl.Car;
 
 /**
  * A driver program to test the functionality of
- * {@code cs1302.ce06.impl.Car} which implements
- * {@code cs1302.ce06.contract.Drivable}
+ * {@code cs1302.hw03.impl.Car} which implements
+ * {@code cs1302.hw03.contract.Drivable}
  */
 public class Driver {
 
     /**
-     * Attempts to speedup and slowdown the {@link cs1302.ce06.impl.Car} object
-     * by a specified amount. If the {@link cs1302.ce06.impl.Car} object is unable
+     * Attempts to speedup and slowdown the {@link cs1302.hw03.impl.Car} object
+     * by a specified amount. If the {@link cs1302.hw03.impl.Car} object is unable
      * to speedup or slowdown by the specified amount, an appropriate message is
      * printed.
      *

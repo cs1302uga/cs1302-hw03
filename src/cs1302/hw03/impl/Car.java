@@ -1,10 +1,10 @@
-package cs1302.ce06.impl;
+package cs1302.hw03.impl;
 
-import cs1302.ce06.contract.Drivable;
+import cs1302.hw03.contract.Drivable;
 
 /**
  * This class represents a car. It implements
- * the {@link cs1302.ce06.contract.Drivable} interface.
+ * the {@link cs1302.hw03.contract.Drivable} interface.
  *
  */
 public class Car implements Drivable {

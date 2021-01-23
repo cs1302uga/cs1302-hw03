@@ -1,4 +1,4 @@
-package cs1302.ce06.contract;
+package cs1302.hw03.contract;
 
 /**
  * Represents the interface for an object that is drivable.
