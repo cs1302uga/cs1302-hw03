@@ -1,6 +1,6 @@
 # hw03 Interfaces (ADTs)
 
-![Approved for: Fall 2021](https://img.shields.io/badge/Approved%20for-Fall%202021-blue)
+![Approved for: Spring 2022](https://img.shields.io/badge/Approved%20for-Spring%202022-purple) 
 
 This class exercise is designed to get you acquainted with Interfaces in Java.
 When a seasoned programmer or potential employer asks you if you know 
