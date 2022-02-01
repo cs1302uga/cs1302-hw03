@@ -67,10 +67,6 @@ will serve as a helpful study guide for the exam.
 
 1. Read through the Javadoc comments in the `Drivable` interface and write down the names of the 
    abstract methods in your notes.
-
-1. Run the given code through `checkstyle` using the `check1302` command and fix any errors that it gives.
-   Remember to use the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide) as a reference
-   for the various types of errors that may pop up.
    
 1. Generate the API documentation website for all of the code in the `cs1302` package. 
    Host the documentation on Odin using `cs1302-hw03-doc` as the name for your symbolic link.
@@ -81,6 +77,10 @@ will serve as a helpful study guide for the exam.
    website. Notice that there is no Javadoc comment in the source code. However, a comment still
    shows up on the website. How is this possible?
 
+1. Run the given code through `checkstyle` using the `check1302` command and fix any errors that it gives.
+   Remember to use the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide) as a reference
+   for the various types of errors that may pop up.
+   
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
