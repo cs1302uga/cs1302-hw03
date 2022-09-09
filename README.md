@@ -12,7 +12,7 @@ and interface-based polymorphism. 
 ## Prerequisite Knowledge
 
 * A basic understanding of creating and implementing interfaces in Java.
-* [CSCI 1302 Interfaces Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/interfaces/interfaces.md)
+* [CSCI 1302 Interfaces Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/interfaces/interfaces.md)
 
 ## Course-Specific Learning Outcomes
 
@@ -151,7 +151,7 @@ will serve as a helpful study guide for the exam.
    
    **Hint:** If you're stuck on this step, it is similar to the `gatherTotalDonations` method in the
    [video](https://www.youtube.com/watch?v=kcBV6tlg44I) on Interfaces provided in the 
-   [1302 Interfaces Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/interfaces/interfaces.md).
+   [1302 Interfaces Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/interfaces/interfaces.md).
    The `gatherTotalDonations` method used an array of `Donator` references. Your method will just need a single
    `Drivable` reference.
    
