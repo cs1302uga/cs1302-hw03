@@ -81,6 +81,10 @@ will serve as a helpful study guide for the exam.
    Remember to use the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide) as a reference
    for the various types of errors that may pop up.
    
+1. You may also find it helpful to draw out the UML diagram for these classes and create a 
+   [compile script](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/scripts/scripts.md) for 
+   quick compilation.
+   
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
