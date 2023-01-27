@@ -114,7 +114,7 @@ will serve as a helpful study guide for the exam.
    
 1. Compile `Car.java`. Remember to set the classpath appropriately so `javac` can locate dependencies. 
 
-   <!--
+<!--
    *Uh-oh*. (╯°□°）╯︵ ┻━┻ 
 
    * Don't stress! You're expected to see the compile-time error below:
@@ -133,7 +133,7 @@ will serve as a helpful study guide for the exam.
    one of the methods in `Drivable`. Must be a typo. **Hint:** check spelling and capitalization.
    
    Modify `Car.java` to fix the error and recompile. ┬─┬ノ( º _ ºノ)
-   -->
+-->
    
 1. Compile and execute `Driver.java`. It should run properly once `Car.java` is compiled. For now, we only
    have a single class (`Car.java`) that implements `Drivable`. Notice that the `test` method in `Driver.java`
