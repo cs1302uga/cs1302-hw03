@@ -51,8 +51,13 @@ will serve as a helpful study guide for the exam.
    ```
    $ tree src
    ```
+
+1. Generate the API documentation website for all of the code in the `cs1302` package. 
+   Host the documentation on Odin using `cs1302-hw03-doc` as the name for your symbolic link.
+   What is the URL to your hosted website?
    
-   For each Java file under the `src` subdirectory, fill out a row in a table similar to the 
+1. Using the API documentation website you generated in the last step, look at the documentation for
+   each class provided in the starter code. For each Java file, fill out a row in a table similar to the 
    following in your notes:
 
    **Note:** If a class is not an interface and does not implement an interface, write `NA` in the second
@@ -67,10 +72,6 @@ will serve as a helpful study guide for the exam.
 
 1. Read through the Javadoc comments in the `Drivable` interface and write down the names of the 
    abstract methods in your notes.
-   
-1. Generate the API documentation website for all of the code in the `cs1302` package. 
-   Host the documentation on Odin using `cs1302-hw03-doc` as the name for your symbolic link.
-   What is the URL to your hosted website?
 
 1. Look at the `speedUp` method in the `Car.java` file. Compare the Javadoc comment for the
    method in that file to the documentation listed for that method in the API documentation
