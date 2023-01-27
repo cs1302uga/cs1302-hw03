@@ -46,10 +46,10 @@ will serve as a helpful study guide for the exam.
 
 1. Change into the `cs1302-hw03` directory that was just created and look around. There should be
    multiple Java files contained within the directory structure. To see a listing of all of the 
-   files under the `src` subdirectory, use the `find` command as follows:
+   files under the `src` subdirectory, use the `tree` command as follows:
    
    ```
-   $ find src
+   $ tree src
    ```
    
    For each Java file under the `src` subdirectory, fill out a row in a table similar to the 
@@ -95,14 +95,14 @@ will serve as a helpful study guide for the exam.
 
 1. Make sure that you are still in the `cs1302-hw03` directory. Compile `Drivable.java` and place the compiled
    code under the preexisting `bin` directory. To see a listing of all of the files under the `bin` subdirectory, 
-   use the `find` command as follows:
+   use the `tree` command as follows:
    
    ```
-   $ find bin
+   $ tree bin
    ```
    
    Notice that interfaces are compiled the same way as classes. In your notes, write down the path for the
-   `Drivable.class` file that the compiler generated based on the output of `find`.
+   `Drivable.class` file that the compiler generated based on the output of `tree`.
    
 1. Compile `Car.java`. Remember to set the classpath appropriately so `javac` can locate dependencies. 
 
