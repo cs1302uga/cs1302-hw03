@@ -57,7 +57,7 @@ will serve as a helpful study guide for the exam.
    What is the URL to your hosted website?
    
 1. Using the API documentation website you generated in the last step, look at the documentation for
-   each class provided in the starter code. For each Java file, fill out a row in a table similar to the 
+   the three class files provided in the starter code. For each Java file, fill out a row in a table similar to the 
    following in your notes:
 
    **Note:** If a class is not an interface and does not implement an interface, write `NA` in the second
@@ -70,8 +70,8 @@ will serve as a helpful study guide for the exam.
    |-----------------------|----------------------------------|----------------------------|------------|
    |-----------------------|----------------------------------|----------------------------|------------|
 
-1. Read through the Javadoc comments in the `Drivable` interface and write down the names of the 
-   abstract methods in your notes.
+1. Read through the Javadoc comments for the `Drivable` interface on the API website you generated or in the source
+   code. Make a note of the methods contained in the interface. You may find it helpful to write them in your notes.
 
 1. Look at the `speedUp` method in the `Car.java` file. Compare the Javadoc comment for the
    method in that file to the documentation listed for that method in the API documentation
@@ -82,9 +82,9 @@ will serve as a helpful study guide for the exam.
    Remember to use the [1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide) as a reference
    for the various types of errors that may pop up.
    
-1. You may also find it helpful to draw out the UML diagram for these classes and create a 
+1. Before moving on, we highly recommend drawing out the UML diagram for these classes and creating a 
    [compile script](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/scripts/scripts.md) for 
-   quick compilation.
+   quick and easy compilation.
    
 <hr/>
 
@@ -102,11 +102,19 @@ will serve as a helpful study guide for the exam.
    $ tree bin
    ```
    
-   Notice that interfaces are compiled the same way as classes. In your notes, write down the path for the
-   `Drivable.class` file that the compiler generated based on the output of `tree`.
+   Notice that interfaces are compiled the same way as classes. Your output should be similar to the following:
+   
+   ```
+   bin
+   └── cs1302
+       └── hw03
+           └── contract
+               └── Drivable.class
+   ```
    
 1. Compile `Car.java`. Remember to set the classpath appropriately so `javac` can locate dependencies. 
 
+   <!--
    *Uh-oh*. (╯°□°）╯︵ ┻━┻ 
 
    * Don't stress! You're expected to see the compile-time error below:
@@ -120,11 +128,12 @@ will serve as a helpful study guide for the exam.
    
    Note: the expected error is not "package does not exist" or 
    "cannot find symbol". If you received one of these errors, check your compilation line for mistakes.
-   
+
 1. Why did you receive the intended compile-time error above? Notice it says `Car` does not override
    one of the methods in `Drivable`. Must be a typo. **Hint:** check spelling and capitalization.
    
    Modify `Car.java` to fix the error and recompile. ┬─┬ノ( º _ ºノ)
+   -->
    
 1. Compile and execute `Driver.java`. It should run properly once `Car.java` is compiled. For now, we only
    have a single class (`Car.java`) that implements `Drivable`. Notice that the `test` method in `Driver.java`
